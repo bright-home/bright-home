@@ -1,5 +1,7 @@
 # Bright Home
 
+[Shortcut to Laravel 5.4 Documentation](https://laravel.com/docs/5.4/installation).
+
 ## Generate Your Application Key
 
 First, and most important thing when downloading the Laravel app is to generate your application key, otherwise, you application will fail at doing just about everything.
