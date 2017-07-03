@@ -1,12 +1,22 @@
 # Bright Home
 
+## Generate Your Application Key
+
+First, and most important thing when downloading the Laravel app is to generate your application key, otherwise, you application will fail at doing just about everything.
+
+First, clone/download the project and navigate to the project root directory.
+
+Then run:
+
+```
+$ php artisan key:generate
+```
+
 ## Set Up Vagrant
 
 Vagrant comes pre-installed in this app. Just ensure you have VirtualBox installed on your computer and Vagrant will take of the rest.
 
-First, clone/download the project and navigate to the project root directory.
-
-Then, to run the app inside Vagrant, execute:
+To run the app inside Vagrant, execute:
 
 ```
 vagrant up
