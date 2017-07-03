@@ -2,7 +2,11 @@
 
 ## Set Up Vagrant
 
-Vagrant comes pre-installed in this app. Just ensure you have VirtualBox installed on your computer and Vagrant will take of the rest. To run the app inside Vagrant, just run:
+Vagrant comes pre-installed in this app. Just ensure you have VirtualBox installed on your computer and Vagrant will take of the rest.
+
+First, clone/download the project and navigate to the project root directory.
+
+Then, to run the app inside Vagrant, execute:
 
 ```
 vagrant up
