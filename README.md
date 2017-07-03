@@ -120,3 +120,16 @@ $ vendor/bin/codecept run functional
 ```
 $ vendor/bin/codecept run acceptance
 ```
+## Running Migrations
+
+Migrations are a way to version your database. You can generate a new migration using `php artisan make:migration create_mynewentity_table`.
+
+To execute your migrations, run:
+
+```
+php artisan migrate
+```
+
+This will run any pending migrations that have not been run yet in the past.
+
+When you create a migration, they can be found in the `bright-home/database/migrations/` folder. The timestamp in front of the migration name is used by Laravel to determine which migration to run first. This is not something you should have to mess with, but is generally good to know to understand how migrations work.
